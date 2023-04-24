@@ -1,0 +1,44 @@
+{
+  "0a84854b-046a-47f7-aa16-0a7a16feed14": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0a84854b-046a-47f7-aa16-0a7a16feed14"
+  },
+  "62704416-1f6b-4c10-a058-6815f3067d07": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://petermillar.sharepoint.com/sites/SalesRepPortal": {
+        "dataSources": {
+          "Sales Rep Contacts": {
+            "tableName": "6afb79eb-6791-484b-a240-0813daa2655b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Sales Rep Contacts"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "62704416-1f6b-4c10-a058-6815f3067d07"
+  }
+}
